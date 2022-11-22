@@ -9,7 +9,6 @@ import {
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { db } from "../firebase";
-import "../index.css";
 import TaskTraking from "./TaskTraking";
 
 const TaskList = () => {

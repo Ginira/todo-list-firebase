@@ -1,4 +1,3 @@
-import './App.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import Home from './components/Home';
 
@@ -6,12 +5,11 @@ import Home from './components/Home';
 function App() {
   
   return (
+    <div className="todo-box">
     <ChakraProvider>
-      <div className="App">
-      <header className="App-header">Todo list</header>
       <Home/>
-      </div>
     </ChakraProvider>
+    </div>
   )
 }
 
